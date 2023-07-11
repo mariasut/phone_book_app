@@ -1,0 +1,15 @@
+.navbar {
+    background-color: lightgrey;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+}
+
+#logo {
+    float: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: black;
+    letter-spacing: -1px;
+    font-weight: bold;
+}

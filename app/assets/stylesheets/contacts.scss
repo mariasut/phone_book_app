@@ -1,0 +1,36 @@
+// Place all the styles related to the Phones controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+  
+.contact-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact-list li:last-child {
+  border-bottom: none;
+}
+
+.not-found-message {
+  color: #555;
+  font-style: italic;
+  margin-top: 10px;
+}
